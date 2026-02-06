@@ -29,6 +29,13 @@ pip install -r requirements.txt
 python3 runtime.py --mode chat
 ```
 
+## Usage
+```bash
+make setup
+make check
+make run
+```
+
 ## Roadmap
 - Add automatic local model health scoring for fallback routing.
 - Add provider-specific timeout and retry policies.
